@@ -191,6 +191,20 @@ body {
     text-align: left;
   }
 }
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .project__img-container {
   margin: 0 auto;
   text-align: center;
@@ -198,6 +212,7 @@ body {
   width: 100px;
   line-height: 100px;
 }
+
 @media (min-width: 768px) {
   .project__img-container {
     float: left;
