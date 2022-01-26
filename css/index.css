@@ -191,6 +191,7 @@ body {
     text-align: left;
   }
 }
+
 .iframe-container {
   position: relative;
   width: 100%;
@@ -221,6 +222,7 @@ body {
     width: 300px;
   }
 }
+
 .project__img {
   display: inline-block;
   margin: 0 auto;
@@ -238,6 +240,15 @@ body {
 @media (min-width: 768px) {
   .project__details {
     margin-left: 300px;
+    margin-right: 0;
+  }
+}
+.projectz__details {
+  padding: 15px;
+}
+@media (min-width: 768px) {
+  .projectz__details {
+    margin-left: 0px;
     margin-right: 0;
   }
 }
